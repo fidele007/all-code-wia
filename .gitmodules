@@ -1,3 +1,6 @@
 [submodule "pos-projection"]
 	path = pos-projection
 	url = https://github.com/fidele007/pos-projection.git
+[submodule "BiLSTM-Debias"]
+	path = BiLSTM-Debias
+	url = https://github.com/fidele007/BiLSTM-Debias.git
