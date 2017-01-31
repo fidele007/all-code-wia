@@ -43,7 +43,7 @@ def lire_nom_fichier():
 
 def predire(nom_fichier):
     # Prepare file
-    #os.system("Mettre ta commande ici, le nom du fichier à traiter est dans nom_fichier.")
+    os.system("sh convert-text.sh " + nom_fichier + " out.csv")
     
     # Load out.csv
     X_test = pd.read_csv("out.csv", sep=" ")
